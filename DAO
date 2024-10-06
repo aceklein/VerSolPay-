@@ -1,0 +1,34 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract DAOVoting {
+    struct Proposal {
+        string description;
+        uint voteCount;
+    }
+
+    mapping(uint => Proposal) public proposals;
+    mapping(address => bool) public hasVoted;
+    uint public proposalCount;
+
+    function createProposal(string memory description) public {
+        proposalCount++;
+        proposals[proposalCount] = Proposal({
+            description: description,
+            voteCount: 0
+        });
+    }
+
+    function vote(uint proposalId) public {
+        require(!hasVoted[msg.sender], "Already voted");
+        require(proposalId <= proposalCount, "Invalid proposal");
+
+        proposals[proposalId].voteCount++;
+        hasVoted[msg.sender] = true;
+    }
+
+    function getProposal(uint proposalId) public view returns (string memory, uint) {
+        Proposal memory proposal = proposals[proposalId];
+        return (proposal.description, proposal.voteCount);
+    }
+}

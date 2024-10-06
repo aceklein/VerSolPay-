@@ -1,0 +1,9 @@
+async function mintTokensOnEthereum(recipient, amount) {
+    // Call Wormhole to mint equivalent tokens on Ethereum
+    // Example pseudo code:
+    await wormholeMint({
+        recipient: recipient,
+        amount: amount,
+        // Additional params
+    });
+}
