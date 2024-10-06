@@ -1,0 +1,22 @@
+{
+  "networks": {
+    "solana": {
+      "name": "Solana",
+      "network": "mainnet-beta",
+      "rpcUrl": "https://api.mainnet-beta.solana.com",
+      "wormholeBridgeAddress": "BridgeProgramID"
+    },
+    "ethereum": {
+      "name": "Ethereum",
+      "network": "mainnet",
+      "rpcUrl": "https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID",
+      "wormholeBridgeAddress": "0xYourEthereumBridgeAddress"
+    },
+    "bsc": {
+      "name": "Binance Smart Chain",
+      "network": "mainnet",
+      "rpcUrl": "https://bsc-dataseed.binance.org/",
+      "wormholeBridgeAddress": "0xYourBSCBridgeAddress"
+    }
+  }
+}

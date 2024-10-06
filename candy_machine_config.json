@@ -1,0 +1,14 @@
+{
+  "price": 0.01,
+  "goLiveDate": "2024-01-01T00:00:00Z",
+  "treasuryWallet": "YourTreasuryWalletPublicKey",
+  "symbol": "UNBKND",
+  "sellerFeeBasisPoints": 500,
+  "creators": [
+    {
+      "address": "YourCreatorWalletAddress",
+      "verified": true,
+      "share": 100
+    }
+  ]
+}

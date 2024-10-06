@@ -1,0 +1,20 @@
+{
+  "app": {
+    "name": "UNBKND Platform",
+    "environment": "production",
+    "apiBaseUrl": "https://api.unbknd.com",
+    "defaultChain": "solana"
+  },
+  "solana": {
+    "network": "mainnet-beta",
+    "rpcUrl": "https://api.mainnet-beta.solana.com",
+    "programId": "YourSolanaProgramID",
+    "candyMachineId": "YourCandyMachineID",
+    "walletPrivateKeyPath": "/path/to/your/keypair.json"
+  },
+  "apiKeys": {
+    "infura": "YOUR_INFURA_PROJECT_ID",
+    "etherscan": "YOUR_ETHERSCAN_API_KEY",
+    "wormholeApiKey": "YOUR_WORMHOLE_API_KEY"
+  }
+}
