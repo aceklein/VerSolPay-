@@ -1,0 +1,32 @@
+{
+  "environments": {
+    "devnet": {
+      "solana": {
+        "rpcUrl": "https://api.devnet.solana.com",
+        "keypairPath": "/path/to/devnet/keypair.json"
+      },
+      "network": "devnet"
+    },
+    "mainnet-beta": {
+      "solana": {
+        "rpcUrl": "https://api.mainnet-beta.solana.com",
+        "keypairPath": "/path/to/mainnet/keypair.json"
+      },
+      "network": "mainnet-beta"
+    }
+  },
+  "programIds": {
+    "unbkndToken": {
+      "devnet": "YourDevnetUNBKNDProgramID",
+      "mainnet-beta": "YourMainnetUNBKNDProgramID"
+    },
+    "liquidityManagement": {
+      "devnet": "YourDevnetLiquidityProgramID",
+      "mainnet-beta": "YourMainnetLiquidityProgramID"
+    },
+    "identityVerification": {
+      "devnet": "YourDevnetIdentityProgramID",
+      "mainnet-beta": "YourMainnetIdentityProgramID"
+    }
+  }
+}

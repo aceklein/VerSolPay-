@@ -1,0 +1,7 @@
+{
+  "name": "UNBKND Token",
+  "symbol": "UNBKND",
+  "uri": "https://yourdomain.com/metadata/unbknd.json",
+  "seller_fee_basis_points": 500,
+  "creators": null
+}

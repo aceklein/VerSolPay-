@@ -1,0 +1,12 @@
+{
+  "devnet": {
+    "unbkndToken": "YourDevnetUNBKNDTokenProgramID",
+    "liquidityManagement": "YourDevnetLiquidityProgramID",
+    "identityVerification": "YourDevnetIdentityProgramID"
+  },
+  "mainnet-beta": {
+    "unbkndToken": "YourMainnetUNBKNDTokenProgramID",
+    "liquidityManagement": "YourMainnetLiquidityProgramID",
+    "identityVerification": "YourMainnetIdentityProgramID"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "api": {
+    "baseUrl": "https://api.unbknd.com",
+    "port": 3000
+  },
+  "solana": {
+    "rpcUrl": "https://api.mainnet-beta.solana.com",
+    "keypairPath": "/path/to/your/solana/keypair.json"
+  },
+  "ethereum": {
+    "rpcUrl": "https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID",
+    "chainId": 1
+  },
+  "wormhole": {
+    "bridgeEndpoint": "https://bridge.wormholenetwork.com",
+    "apiKey": "YOUR_WORMHOLE_API_KEY"
+  },
+  "infura": {
+    "projectId": "YOUR_INFURA_PROJECT_ID",
+    "projectSecret": "YOUR_INFURA_PROJECT_SECRET"
+  }
+}
