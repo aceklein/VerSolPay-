@@ -1,0 +1,14 @@
+async function lockTokens(amount) {
+    const connection = new Connection("https://api.devnet.solana.com");
+    const tx = new Transaction();
+
+    // Create instructions to lock tokens
+    // This will involve calling the Wormhole lock function
+    // Example pseudo code:
+    tx.add(
+        // Wormhole lock instruction goes here
+    );
+
+    const signature = await sendAndConfirmTransaction(connection, tx, [payer]);
+    console.log("Tokens locked, transaction:", signature);
+}
