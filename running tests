@@ -1,0 +1,12 @@
+## Running Tests
+
+1. **API Tests**:
+   To run API tests:
+   ```bash
+   cd src/backend/
+   npm test
+
+	2.	Contract Tests:
+To run contract tests for Solana:
+
+anchor test

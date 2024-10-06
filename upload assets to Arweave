@@ -1,0 +1,1 @@
+metaplex upload ./assets/unbknd --env devnet --keypair /path/to/your/keypair.json --reuse-uris

@@ -1,0 +1,5 @@
+const BscSdk = require('@binance-chain/javascript-sdk');
+const bscClient = new BscSdk.Binance({ network: 'testnet' });
+bscClient.initChain();
+
+console.log(`Connected to Binance Smart Chain: ${bscClient.network}`);

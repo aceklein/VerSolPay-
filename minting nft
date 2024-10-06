@@ -1,0 +1,1 @@
+metaplex mint_one_token -k /path/to/your/keypair.json --env devnet

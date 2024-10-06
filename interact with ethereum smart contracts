@@ -1,0 +1,6 @@
+const abi = [ /* contract ABI */ ];
+const contractAddress = '0xYourContractAddress';
+const contract = new web3.eth.Contract(abi, contractAddress);
+
+const result = await contract.methods.someMethod().call();
+console.log(result);
