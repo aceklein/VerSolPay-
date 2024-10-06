@@ -1,0 +1,21 @@
+Cross-Chain Functionality
+
+The UNBKND token can be transferred across different blockchains using the Wormhole bridge:
+
+	1.	Lock Tokens on Solana: Users lock their tokens to prepare for cross-chain transfers.
+	2.	Mint Equivalent Tokens on Destination Chain: Once locked, users can mint tokens on Ethereum or BSC.
+
+Integration with Wormhole
+
+For cross-chain functionality, integrate with Wormhole:
+
+	•	Lock tokens on Solana.
+	•	Call Wormhole’s mint function on the destination chain.
+	
+	async function lockTokens(amount) {
+    // Locking logic
+}
+
+async function mintTokensOnEthereum(recipient, amount) {
+    // Minting logic
+}

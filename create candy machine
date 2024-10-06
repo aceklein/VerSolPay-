@@ -1,0 +1,1 @@
+metaplex create_candy_machine -k /path/to/your/keypair.json --env devnet --price 0.01 --go-live-date "2024-01-01T00:00:00Z"
